@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Maquina";
+  src: url("fonts/JMH\ Typewriter.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: maquina;
+}
+
+.capa {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h1 {
+  font-size: 50pt;
+  text-align: center;
+}
+
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body p {
+  font-size: 16px;
+}
+
+.dedicatoria {
+  font-family: sans-serif;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
